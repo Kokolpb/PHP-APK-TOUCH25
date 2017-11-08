@@ -1,0 +1,85 @@
+.scrollable {
+  position:relative;
+  overflow:hidden;
+  width: 1024px;
+  height:512px;
+  margin:0 auto;
+}
+.scrollable .items {
+  width:20000em;
+  position:absolute;
+  clear:both;
+}
+.items li {
+  float:left;
+  width: 1024px;
+  text-align:center;
+}
+.scrollable .active {
+  position:relative;
+  cursor:default;
+}
+
+@media (min-width:1025px){ 
+.scrollable {width: 1024px;height:512px; }
+.items li {width:1024px;}
+}
+
+
+@media (max-width:1024px){ 
+.scrollable {width: 1024px;height:512px; }
+.items li {width:1024px;}
+}
+
+@media (max-width:980px){ 
+.scrollable {width: 980px;height:490px; }
+.items li {width:980px;}
+}
+
+/* For ipad landscape */
+@media (max-width:768px){ 
+.scrollable {width: 768px;height:384px; }
+.items li {width:768px;}
+}
+
+@media (max-width:720px){ 
+.scrollable {width: 720px;height:360px; }
+.items li {width:720px;}
+}
+/* For Samsung galaxy s3 landscape */
+@media (max-width:640px){ 
+.scrollable {width: 640px;height:320px; }
+.items li {width:640px;}
+}
+
+@media (max-width:598px){ 
+.scrollable {width: 598px;height:299px; }
+.items li {width:598px;}
+}
+
+@media (max-width:520px){ 
+.scrollable {width: 520px;height:260px; }
+.items li {width:520px;}
+}
+
+@media (max-width:480px){
+.scrollable {width: 480px;height:240px; }
+.items li {width:480px;}
+}
+
+
+@media (max-width:360px){ 
+.scrollable {width: 360px;height:180px; }
+.items li {width:360px;}
+}
+
+@media (max-width:345px){ 
+.scrollable {width: 345px;height:173px; }
+.items li {width:345px;}
+}
+
+@media (max-width:320px){ 
+.scrollable {width: 320px;height:160px; }
+.items li {width:320px;}
+}
+
